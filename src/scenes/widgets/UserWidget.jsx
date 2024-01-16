@@ -45,7 +45,7 @@ const UserWidget = ({ userId, picturePath }) => {
     occupation,
     viewedProfile,
     impressions,
-    friends, // eslint-disable-line react-hooks/exhaustive-deps
+    // friends,
   } = user;
 
   return (
