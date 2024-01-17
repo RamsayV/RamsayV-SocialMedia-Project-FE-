@@ -33,7 +33,7 @@ import {
   
     const { palette } = useTheme();
     const main = palette.neutral.main;
-    const primary = palette.primary.main;
+    
   
     const patchLike = async () => {
       const response = await fetch(`${process.env.REACT_APP_API_URL}/posts/${postId}/like`, {
