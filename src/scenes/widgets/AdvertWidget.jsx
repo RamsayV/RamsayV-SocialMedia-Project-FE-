@@ -28,9 +28,9 @@ const AdvertWidget = () => {
       </a>
       <FlexBetween>
       <a href={portfolioUrl} target="_blank" rel="noopener noreferrer">
-        <Typography color={main}>Check Ramsay's Porfolio</Typography>
+        <Typography color={main}>Check Out Ramsay's Porfolio</Typography>
         </a>
-        <Typography color={medium}>Explore my other work</Typography>
+        <Typography color={medium}>Projects and Experience</Typography>
       </FlexBetween>
       <Typography color={medium} m="0.5rem 0">
       Explore my portfolio to see a variety of projects that reflect my skills and experiences. It's a window into my professional journey, showcasing my dedication and passion for my work. 
