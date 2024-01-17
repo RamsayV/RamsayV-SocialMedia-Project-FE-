@@ -7,6 +7,7 @@ const AdvertWidget = () => {
   const dark = palette.neutral.dark;
   const main = palette.neutral.main;
   const medium = palette.neutral.medium;
+  const portfolioUrl = "https://ramsay-portfolio.netlify.app/"
 
   return (
     <WidgetWrapper>
@@ -16,20 +17,23 @@ const AdvertWidget = () => {
         </Typography>
         <Typography color={medium}>Create Ad</Typography>
       </FlexBetween>
+      <a href={portfolioUrl} target="_blank" rel="noopener noreferrer">
       <img
         width="100%"
         height="auto"
         alt="advert"
-        src={`${process.env.REACT_APP_API_URL}/assets/info4.jpeg`}
+        src={`${process.env.REACT_APP_API_URL}/assets/advert.jpeg`}
         style={{ borderRadius: "0.75rem", margin: "0.75rem 0" }}
       />
+      </a>
       <FlexBetween>
-        <Typography color={main}>MikaCosmetics</Typography>
-        <Typography color={medium}>mikacosmetics.com</Typography>
+      <a href={portfolioUrl} target="_blank" rel="noopener noreferrer">
+        <Typography color={main}>Check Ramsay's Porfolio</Typography>
+        </a>
+        <Typography color={medium}>Explore my other work</Typography>
       </FlexBetween>
       <Typography color={medium} m="0.5rem 0">
-        Your pathway to stunning and immaculate beauty and made sure your skin
-        is exfoliating skin and shining like light.
+      Explore my portfolio to see a variety of projects that reflect my skills and experiences. It's a window into my professional journey, showcasing my dedication and passion for my work. 
       </Typography>
     </WidgetWrapper>
   );
